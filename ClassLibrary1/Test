@@ -1,0 +1,45 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+
+namespace ClassLibrary1.Tests
+{
+    [TestClass]
+    public class Var12_OrganisationTests
+    {
+        [TestMethod]
+        public void Constructor_ShouldInitializeFields()
+        {
+            // Arrange
+            string name = "TestOrg";
+            string legalAddress = "123 Legal St";
+            string actualAddress = "456 Actual St";
+            string supervisor = "John Doe";
+
+            // Act
+            var organisation = new Var12_Organisation(name, legalAddress, actualAddress, supervisor);
+
+            // Assert
+            Assert.AreEqual(name, organisation.GetName());
+            Assert.AreEqual(legalAddress, organisation.GetLegalAddress());
+            Assert.AreEqual(actualAddress, organisation.GetActualAddress());
+            Assert.AreEqual(supervisor, organisation.GetEmployee().GetSupervisor());
+        }
+
+        [TestMethod]
+        public void Constructor_ShouldFailTest()
+        {
+            // Arrange
+            string name = "TestOrg";
+            string legalAddress = "123 Legal St";
+            string actualAddress = "456 Actual St";
+            string supervisor = "John Doe";
+
+            // Act
+            var organisation = new Var12_Organisation(name, legalAddress, actualAddress, supervisor);
+
+            // This test is intentionally made to fail
+            // Assert
+            Assert.AreEqual("WrongName", organisation.GetName());
+        }
+    }
+}
