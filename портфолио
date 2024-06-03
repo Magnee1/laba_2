@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="stylesheet" href="portfolio.css">
+<script src="portfolio.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+          <h1><img src="logo.png" alt="Photographer Logo"></h1>
+          
+            <a href="Главная.html">Главная</a>
+            <a href="contacts.html">Контактные данные</a>
+            <a href="portfolio.html">Портфолио</a>
+            <a href="blog.html">Блог, советы для клиентов</a>
+            <a href="list.html">Прайс-лист</a>
+            <a href="za.html">Оставить заявку</a>
+          
+        </div>
+      </header>
+
+<nav>
+    <ul>
+        <li><a href="#vse-semki">Все съемки</a></li>
+        <li><a href="#svadebnye-semki">Свадебные съемки</a></li>
+        <li><a href="#semki-dlya-zhurnalov">Съемка для журналов</a></li>
+        <li><a href="#portretnaya-semka">Портретная съемка</a></li>
+        <li><a href="#semki-sobytii">Съемка событий</a></li>
+    </ul>
+</nav>
+
+<section id="wedding">
+<h2>Свадебные съемки</h2>
+<div class="main-container">
+    <div class="row">
+        <div class="column">
+            <img src="1447375.jpg" style="width: 100%" alt="">
+     
+        </div>
+        <div class="column">
+            <img src="3347411.jpg" style="width: 100%" alt="">
+            <img src="3352398.jpg" style="width: 100%" alt="">
+        
+        </div>
+        <div class="column">
+            <img src="3031373.jpg" style="width: 100%" alt="">
+        </div>
+        <div class="column">
+            <img src="3014853.jpg" style="width: 100%" alt="">
+        </div>
+    </div>
+</div>
+</section>
+<section id="editorial">
+<h2>Съемка для журналов</h2>
+<div class="gallery">
+
+</div>
+</section>
+<section id="portrait">
+<h2>Портретная съемка</h2>
+<div class="gallery">
+
+</div>
+</section>
+<section id="events">
+<h2>Съемка событий</h2>
+<div class="gallery">
+
+</div>
+</section>
+</main>
+
+<footer>
+    <h2 id="foot">Контакты</h2>
+    <p>E-mail: sergey.yakovlev@photo.com</p>
+    <p>Телефон: 8 (987) 123-45-67</p>
+    <p>Ссылки на соц. сети и мессенджеры:</p>
+    <ul>
+        <li><a href="https://vk.com/sergeyyakovlev123">VK</a></li>
+        <li><a href="https://t.me/sergeyyakovlev123">Telegram</a></li>
+        <li><a href="https://wa.me/9871234567">WhatsApp</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
