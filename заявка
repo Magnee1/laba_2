@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-\scale=1">
+        <!-- width=device-width устанавливает ширину области просмотра равной ширине экрана -->
+        <meta property="og:image" content="image.jpg">
+        <!-- Изображение, отображаемое, когда вы делитесь ссылкой на страницу в социальных сетях,
+         приложениях чата или других сайтах, которые очищают URL-адреса. -->
+        <title>Оставить заявку</title>
+        
+        <script src="form.js" defer></script>
+    
+    
+    </head>
+<form id="feedback-form">
+    <label for="name">Ваше имя:</label>
+    <input type="text" id="name" name="name" required>
+    <div id="name-error"></div>
+    <label for="email">Ваш e-mail:</label>
+    <input type="email" id="email" name="email" required>
+    <div id="email-error"></div>
+    <label for="phone">Ваш телефон:</label>
+    <input type="tel" id="phone" name="phone" required>
+    <div id="phone-error"></div>
+    <label for="comment">Комментарий:</label>
+    <textarea id="comment" name="comment"></textarea>
+    <button type="submit">Отправить</button>
+</form>
+</html>
