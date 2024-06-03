@@ -1,0 +1,259 @@
+        /* CSS код для стилей 
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        header img {
+            max-width: 100px;
+          }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #f1f1f1;
+            overflow: hidden;
+        }
+        .menu li {
+            float: left;
+        }
+        .menu li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        /* Стили для section */
+/*section {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Стили для reviews */
+  /*.review {
+    margin-bottom: 20px;
+  }
+  
+  .review h3 {
+    font-size: 1.2em;
+  }
+  
+  .review p {
+    margin-bottom: 10px;
+  } */
+  /* Основные стили */
+  header {
+    box-sizing: border-box;
+    min-height: 15vh;
+  }
+#navbar {
+  margin-bottom: 1em;
+  box-sizing: border-box;
+  grid-template-columns: 1fr 0.6fr 0.6fr 0.6fr 0.6fr 2fr;
+  background-color: #151515;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-height: 15vh;
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 2.5vh 1vw;
+  font-size: 3vh;
+  margin-top: 2vh;
+  text-decoration-line: underline;
+}
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#navbar h1 {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  margin: 0 2em;
+  color: white;
+  font: 6vh "Segoe UI Semibold";
+}
+header img {
+    max-width: 100px;
+  }
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+.menu li {
+    float: left;
+}
+.menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  #home {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #about {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  #reviews {
+    background-color: #eee;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  /* Основной контент */
+  main {
+    padding: 20px 0;
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 1.5rem;
+  }
+  .main-container {
+    padding: 0.5em;
+    background-color: #396969;
+    font-size: 2em;
+    margin-bottom: 2em;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  h3{
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .review {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .review h3 {
+    color: #333;
+  }
+  
+  .review p {
+    color: #666;
+  }
+  
+  /* Стили футера */
+  footer {
+    background-color: #151515;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  #foot{
+    color: #bfbfbf;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  #SS{
+    max-width: 100px;
+  }
+  .Maksim{
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  .Sergey{
+    background-color: #dad9d9;
+    padding: 20px;
+    text-align: center;
+  }
+  #photo{
+    max-width: 400px;
+  } 
+  #Grisha{
+    background-color: #dad9d9;
+    padding: 20px;
+    text-align: center;
+  }
+  #Vika{
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  #Gordost{
+    text-align: center;
+  }
+  .Gordost{
+    text-align: center;
+  }
+  .blog{
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  .blog_FAQ{
+    background-color: #eee;
+    padding: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .Foto{
+    display: flex;
+    max-width: 200px;
+  }
+       
